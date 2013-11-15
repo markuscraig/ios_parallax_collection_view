@@ -52,7 +52,7 @@ static NSString *CellId = @"Cell-Id";
     [self setupModel];
     
     // set background image view
-    UIImage *backgroundImage = [UIImage imageNamed:@"dark_image_hose_parallax.png"];
+    UIImage *backgroundImage = [UIImage imageNamed:@"/images/parallax/dark_image_hose_parallax.png"];
     UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:backgroundImage];
     backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
     
@@ -187,68 +187,68 @@ static NSString *CellId = @"Cell-Id";
 
 - (void)setupModel
 {
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"SF-home-130x115.png"
-                                                 awayImagePath:@"GB-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/SF-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/GB-away-130x115.png"
                                                       gameDate:@"SEPTEMBER 8, 2013"
                                                       gameTime:@"1:00 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"SEA-home-130x115.png"
-                                                 awayImagePath:@"SF-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/SEA-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/SF-away-130x115.png"
                                                       gameDate:@"SEPTEMBER 15, 2013"
                                                       gameTime:@"8:30 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"SF-home-130x115.png"
-                                                 awayImagePath:@"IND-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/SF-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/IND-away-130x115.png"
                                                       gameDate:@"SEPTEMBER 22, 2013"
                                                       gameTime:@"4:25 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"STL-home-130x115.png"
-                                                 awayImagePath:@"SF-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/STL-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/SF-away-130x115.png"
                                                       gameDate:@"SEPTEMBER 26, 2013"
                                                       gameTime:@"8:25 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"SF-home-130x115.png"
-                                                 awayImagePath:@"HOU-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/SF-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/HOU-away-130x115.png"
                                                       gameDate:@"OCTOBER 6, 2013"
                                                       gameTime:@"8:20 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"SF-home-130x115.png"
-                                                 awayImagePath:@"ARI-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/SF-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/ARI-away-130x115.png"
                                                       gameDate:@"OCTOBER 13, 2013"
                                                       gameTime:@"4:25 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"TEN-home-130x115.png"
-                                                 awayImagePath:@"SF-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/TEN-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/SF-away-130x115.png"
                                                       gameDate:@"OCTOBER 20, 2013"
                                                       gameTime:@"4:05 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"JAC-home-130x115.png"
-                                                 awayImagePath:@"SF-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/JAC-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/SF-away-130x115.png"
                                                       gameDate:@"OCTOBER 27, 2013"
                                                       gameTime:@"1:00 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"SF-home-130x115.png"
-                                                 awayImagePath:@"CAR-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/SF-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/CAR-away-130x115.png"
                                                       gameDate:@"NOVEMBER 10, 2013"
                                                       gameTime:@"4:05 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"NO-home-130x115.png"
-                                                 awayImagePath:@"SF-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/NO-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/SF-away-130x115.png"
                                                       gameDate:@"NOVEMBER 17, 2013"
                                                       gameTime:@"4:25 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"WAS-home-130x115.png"
-                                                 awayImagePath:@"SF-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/WAS-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/SF-away-130x115.png"
                                                       gameDate:@"NOVEMBER 25, 2013"
                                                       gameTime:@"8:40 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"SF-home-130x115.png"
-                                                 awayImagePath:@"STL-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/SF-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/STL-away-130x115.png"
                                                       gameDate:@"DECEMBER 1, 2013"
                                                       gameTime:@"4:05 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"SF-home-130x115.png"
-                                                 awayImagePath:@"SEA-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/SF-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/SEA-away-130x115.png"
                                                       gameDate:@"DECEMBER 8, 2013"
                                                       gameTime:@"4:25 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"TB-home-130x115.png"
-                                                 awayImagePath:@"SF-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/TB-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/SF-away-130x115.png"
                                                       gameDate:@"DECEMBER 15, 2013"
                                                       gameTime:@"1:00 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"SF-home-130x115.png"
-                                                 awayImagePath:@"ATL-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/SF-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/ATL-away-130x115.png"
                                                       gameDate:@"DECEMBER 23, 2013"
                                                       gameTime:@"8:40 PM (EST)"]];
-    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"ARI-home-130x115.png"
-                                                 awayImagePath:@"SF-away-130x115.png"
+    [gameInfoArray addObject:[self createGameWithHomeImagePath:@"/images/helmets/ARI-home-130x115.png"
+                                                 awayImagePath:@"/images/helmets/SF-away-130x115.png"
                                                       gameDate:@"DECEMBER 29, 2013"
                                                       gameTime:@"4:25 PM (EST)"]];
 }

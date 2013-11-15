@@ -171,7 +171,7 @@
     _homeTeamNameText = text;
     homeTeamTextView.text = text;
 
-    UIImage *textGradient = [UIImage imageNamed:@"light_text_gradient.png"];
+    UIImage *textGradient = [UIImage imageNamed:@"/images/gradients/light_text_gradient.png"];
     homeTeamTextView.textColor = [UIColor colorWithPatternImage:textGradient];
     //nameTextView.backgroundColor = [UIColor colorWithPatternImage:textGradient];
     
@@ -187,7 +187,7 @@
     _awayTeamNameText = text;
     awayTeamTextView.text = text;
     
-    UIImage *textGradient = [UIImage imageNamed:@"light_text_gradient.png"];
+    UIImage *textGradient = [UIImage imageNamed:@"/images/gradients/light_text_gradient.png"];
     awayTeamTextView.textColor = [UIColor colorWithPatternImage:textGradient];
     //nameTextView.backgroundColor = [UIColor colorWithPatternImage:textGradient];
     
@@ -202,7 +202,7 @@
 {
     _gameDateText = text;
     gameDateLabel.text = text;
-    UIImage *textGradient = [UIImage imageNamed:@"light_text_gradient.png"];
+    UIImage *textGradient = [UIImage imageNamed:@"/images/gradients/light_text_gradient.png"];
     gameDateLabel.textColor = [UIColor colorWithPatternImage:textGradient];
 }
 
@@ -210,7 +210,7 @@
 {
     _vsText = text;
     vsLabel.text = text;
-    UIImage *textGradient = [UIImage imageNamed:@"light_text_gradient.png"];
+    UIImage *textGradient = [UIImage imageNamed:@"/images/gradients/light_text_gradient.png"];
     vsLabel.textColor = [UIColor colorWithPatternImage:textGradient];
 }
 
